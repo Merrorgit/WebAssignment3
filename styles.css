@@ -1,0 +1,39 @@
+:root {
+    --colorBlack: #0b0c10;
+    --colorGray: #1f2833;
+    --colorLightGray: #c5c6c7;
+    --colorLightBlue: #66fcf1;
+    --colorBlue: #45a29e;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: var(--colorGray);
+}
+
+header {
+    color: var(--colorLightBlue);
+    text-shadow: 1px 1px 5px var(--colorBlue);
+}
+
+.footer {
+    background: linear-gradient(to top, var(--colorBlack), var(--colorGray));
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.4);
+    border-top: 2px solid var(--colorBlue);
+}
+
+.footer a {
+    color: var(--colorLightGray);
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: var(--colorLightBlue);
+    text-shadow: 1px 1px 5px var(--colorBlue);
+}
+
+.btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
